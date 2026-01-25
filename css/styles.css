@@ -15,6 +15,53 @@ header a {
 .navigation-list {
     font-weight: 700;
 }
+.navigation-list-item:hover {
+    color: #404bbf;
+}
+.navigation-list-item:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
+.contacts-list-item a:hover {
+    color: #404bbf;
+}
+
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-button:active {
+    background-color: #404BBF;
+}
+
+.features {
+   background-color: #FFFFFF;
+}
+
+.visually-hidden {
+    overflow: hidden;
+}
+
+.features h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.features p {
+    font-size: 16px;
+}   
 
 footer {
     background-color: #2E2F42;
@@ -37,37 +84,3 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
 }
-
-.hero {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.5;
-}
-.hero button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    border: none;
-    padding: 16px 32px;
-    font-size: 16px;
-}
-
-.hero button:active {
-    background-color: #404BBF;
-}
-
-.features {
-   background-color: #FFFFFF;
-}
-.features .visually-hidden {
-    overflow: hidden;
-}
-.features h3 {
-    font-size: 20px;
-    font-weight: 500;
-}
-.features p {
-    font-size: 16px;
-}   
