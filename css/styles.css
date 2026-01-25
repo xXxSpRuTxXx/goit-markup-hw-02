@@ -55,13 +55,22 @@ header a {
     overflow: hidden;
 }
 
-.features h3 {
+.features-subtitle {
     font-size: 20px;
     font-weight: 500;
 }
-.features p {
+.features-text {
     font-size: 16px;
-}   
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    text-align: center;
+    background-color: #FFFFFF;
+}
 
 footer {
     background-color: #2E2F42;
