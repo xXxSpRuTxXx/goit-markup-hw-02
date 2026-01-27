@@ -1,8 +1,8 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #2E2F42;
     background-color: #FFFFFF;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
 }
 
@@ -10,7 +10,7 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 60px;
+    line-height: 1.1;
     color: #434455;
 }
 
@@ -37,10 +37,11 @@ header a {
     color: inherit;
 }
 .navigation-list {
-    font-weight: 700;
+    font-weight: 500;
 }
 
-.navigation-list-item:hover {
+.navigation-list-item:hover, 
+.navigation-list-item:focus {
     color: #404bbf;
 }
 
@@ -49,7 +50,13 @@ header a {
     text-decoration: underline;
 }
 
-.contacts-list-item a:hover {
+.contacts-list-item {
+    color: #434455;
+    font-weight: 400;
+}
+
+.contacts-list-item a:hover, 
+.contacts-list-item a:focus {
     color: #404bbf;
 }
 
