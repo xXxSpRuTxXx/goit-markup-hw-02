@@ -9,20 +9,23 @@ body {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 60px;
+    color: #434455;
 }
 
 h2 {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 h3 {
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 ul, ol {
