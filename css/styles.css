@@ -10,7 +10,7 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 1.1;
+    line-height: 1.07;
     color: #FFFFFF;
     text-align: center;
 }
@@ -39,22 +39,22 @@ header a {
 }
 .navigation-list {
     font-weight: 500;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
 }
 
 .navigation-list-item-a {
-    color: #434455;
+    color: #2E2F42;
     font-weight: 500;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     font-style: normal;
 }
 
-.navigation-list-item:hover, 
-.navigation-list-item:focus {
+.navigation-list-item-a:hover, 
+.navigation-list-item-a:focus {
     color: #404bbf;
 }
 
-.navigation-list-item:active {
+.navigation-list-item-a:active {
     color: #404bbf;
     text-decoration: underline;
 }
@@ -62,7 +62,7 @@ header a {
 .contacts-list-item {
     color: #434455;
     font-weight: 400;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     font-style: normal;
 }
 
@@ -86,13 +86,18 @@ header a {
     border: none;
     padding: 16px 32px;
     cursor: pointer;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.hero-button:hover, 
+.hero-button:hover {
+    background-color: #4D5AE5;
+    height: 51px;
+} 
+
+.hero-button:focus,
 .hero-button:focus-visible, 
 .hero-button:active {
     background-color: #404BBF;
@@ -100,6 +105,12 @@ header a {
 
 .features {
    background-color: #FFFFFF;
+}
+
+.features-subtitle {
+    letter-spacing: 0.02em;
+    line-height: 1.33;
+    text-align: left;
 }
 
 .features-text {
@@ -123,6 +134,12 @@ header a {
     background-color: #FFFFFF;
 }
 
+.team-title {
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+}
+
 .team-text {
     color: #434455;
     font-weight: 400;
@@ -131,6 +148,12 @@ header a {
     letter-spacing: 0.02em;
 }
 
+
+.portfolio-title {
+   
+    line-height: 1.11;
+    text-align: left;
+}
 .portfolio-text {
     color: #434455;
     font-weight: 400;
@@ -144,6 +167,14 @@ footer {
     color: #F4F4FD;
 }
 
+.footer-text {
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .logo {
     text-transform: uppercase;
     font-weight: 700;
@@ -151,7 +182,8 @@ footer {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
 }
 
 .logo span {
@@ -160,5 +192,6 @@ footer {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
 }
