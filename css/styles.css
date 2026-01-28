@@ -45,7 +45,7 @@ header a {
 .navigation-list-item-a {
     color: #2E2F42;
     font-weight: 500;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 
@@ -62,7 +62,7 @@ header a {
 .contacts-list-item {
     color: #434455;
     font-weight: 400;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 
@@ -93,8 +93,7 @@ header a {
 }
 
 .hero-button:hover {
-    background-color: #4D5AE5;
-    height: 51px;
+    background-color: #404BBF;
 } 
 
 .hero-button:focus,
@@ -109,7 +108,7 @@ header a {
 
 .features-subtitle {
     letter-spacing: 0.02em;
-    line-height: 1.33;
+    line-height: 1.5;
     text-align: left;
 }
 
@@ -119,10 +118,6 @@ header a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.visually-hidden {
-    visibility: hidden;
 }
 
 .team {
@@ -148,11 +143,17 @@ header a {
     letter-spacing: 0.02em;
 }
 
+.team-subtitle {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    text-align: center;
+}
+
 
 .portfolio-title {
    
     line-height: 1.11;
-    text-align: left;
+    text-align: center;
 }
 .portfolio-text {
     color: #434455;
