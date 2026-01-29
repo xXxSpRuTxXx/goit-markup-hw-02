@@ -108,7 +108,7 @@ header a {
 
 .features-subtitle {
     letter-spacing: 0.02em;
-    line-height: 1.5;
+    line-height: 1.2;
     text-align: left;
 }
 
@@ -145,7 +145,7 @@ header a {
 
 .team-subtitle {
     letter-spacing: 0.02em;
-    line-height: 1.5;
+    line-height: 1.2;
     text-align: center;
 }
 
@@ -161,6 +161,12 @@ header a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.portfolio-subtitle {
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    text-align: left;
 }
 
 footer {
