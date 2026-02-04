@@ -1,3 +1,5 @@
+/* #region Main */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
@@ -29,7 +31,8 @@ h3 {
     color: #2E2F42;
 }
 
-ul, ol {
+ul,
+ol {
     list-style-type: none;
 }
 
@@ -37,6 +40,9 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+/* #endregion */
+
+/* #region Navigation */
 .navigation-list {
     font-weight: 500;
     letter-spacing: 0.04em;
@@ -49,7 +55,7 @@ header a {
     font-style: normal;
 }
 
-.navigation-list-item-a:hover, 
+.navigation-list-item-a:hover,
 .navigation-list-item-a:focus {
     color: #404bbf;
 }
@@ -58,7 +64,9 @@ header a {
     color: #404bbf;
     text-decoration: underline;
 }
+/* #endregion */
 
+/* #region Contacts */
 .contacts-list-item {
     color: #434455;
     font-weight: 400;
@@ -66,11 +74,13 @@ header a {
     font-style: normal;
 }
 
-.contacts-list-item a:hover, 
+.contacts-list-item a:hover,
 .contacts-list-item a:focus {
     color: #404bbf;
 }
+/* #endregion */
 
+/* #region Hero */
 .hero {
     background-color: #2E2F42;
     color: #FFFFFF;
@@ -94,16 +104,20 @@ header a {
 
 .hero-button:hover {
     background-color: #404BBF;
-} 
+}
 
 .hero-button:focus,
-.hero-button:focus-visible, 
+.hero-button:focus-visible,
 .hero-button:active {
     background-color: #404BBF;
 }
+/* #endregion */
+
+/* #region Features */
+
 
 .features {
-   background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .features-subtitle {
@@ -119,6 +133,9 @@ header a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* #endregion */
+
+/* #region Team */
 
 .team {
     background-color: #F4F4FD;
@@ -148,13 +165,15 @@ header a {
     line-height: 1.2;
     text-align: center;
 }
+/* #endregion */
 
-
+/* #region Portfolio */
 .portfolio-title {
-   
+
     line-height: 1.11;
     text-align: center;
 }
+
 .portfolio-text {
     color: #434455;
     font-weight: 400;
@@ -168,7 +187,9 @@ header a {
     line-height: 1.2;
     text-align: left;
 }
+/* #endregion */
 
+/* #region Footer */
 footer {
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -181,7 +202,9 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* #endregion */
 
+/* #region Logo */
 .logo {
     text-transform: uppercase;
     font-weight: 700;
@@ -202,3 +225,4 @@ footer {
     letter-spacing: 0.03em;
     line-height: 1.17;
 }
+/* #endregion */
